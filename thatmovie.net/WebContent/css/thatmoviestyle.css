@@ -1,0 +1,416 @@
+@CHARSET "ISO-8859-1";
+
+
+*{
+	
+	box-sizing:border-box;
+	
+}
+
+
+#LoginBody {
+	
+	
+	background: url("/thatmovieContent/screen.jpg") no-repeat center fixed; 
+	
+	}
+
+	
+#container{
+	
+	width:auto;
+	margin-right:auto;
+	margin-left:auto;
+	padding:1em;
+	border-radius: 15px;
+	
+	
+}	
+	
+	
+	
+#loginContainer {
+	
+     /* background: url(img/wallpaper2you_557127.jpg) no-repeat center fixed;  
+    background-size: cover; */
+	margin-right:auto;
+	margin-left:auto;
+	box-shadow:2.5px 5px #888888;
+	width:250px;	
+    border-radius: 15px;
+   	background:rgba(0,0,0,0);
+   
+}
+
+
+#loginContainer > *{
+	
+	padding:1em;
+    border-radius: 15px;
+}
+	
+
+
+#logo{
+	
+	text-align:center;
+	
+}
+
+#logo span{
+	
+	color:#8b250c;
+	
+}
+
+
+#login_form {
+	
+ /*
+  position: relative;
+  width: 250px;
+  margin: 0 auto;
+  background: rgba(130,130,130,.6);
+  padding: 20px 22px;
+  border: 1px solid;
+  border-top-color: rgba(255,255,255,.4);
+  border-left-color: black;
+  border-bottom-color: black;
+  border-right-color: black;
+*/	
+	width:auto;
+	margin-right:auto;
+	margin-left:auto;
+	
+}
+
+
+#login_form label{
+	
+	display:block;
+	
+	
+}
+
+
+#login_frm input[type="text"], input[type="password"] {
+	
+	
+	width:50%;
+    padding:0% 5% 0% 5%;
+    margin:auto;
+    border:none;
+    border-radius: 5px;
+    background:rgba(0,0,0,0.1);
+    border-bottom: 0.5px solid #fff;
+}
+
+#login_frm p{
+
+text-align:center;
+
+}
+
+
+#msgbox{
+	
+  text-align:center;	
+	
+}
+
+
+
+#loginbtn{
+	
+	cursor:pointer;
+	width:50%;
+    text-transform:uppercase;
+    border:1em; 
+    border-radius:5px;
+    background:rgba(0,0,0,0.1);
+    width:80%;
+}
+
+#loginbtn:hover{
+	
+	
+	background-color:green;
+	color:white;
+	transition:1s ease-in;
+	cursor: pointer;
+}
+
+
+
+
+/* stiyling for the movies page  */
+
+
+
+#moviesBody{
+	
+	padding:1em;
+	background: url("/thatmovieContent/movie-projector-55122_640.png") no-repeat center fixed; 
+	
+}
+
+#moviesTittle{
+	
+	text-align:center;
+	 margin: auto;
+     color:white;
+
+
+
+}
+
+
+#searchFormContent{
+	
+	
+	
+}
+
+#searchtxt{
+	border:none;
+	padding:5px;
+	border-radius:5px;
+    width:82%;
+    margin:auto;
+}
+
+
+#searchBttn{
+	padding:5px;
+	background-color:white;
+	border:none;
+    border-radius:5px; 
+    margin:auto;
+}
+
+#searchBttn:hover{
+	
+	
+	background-color:green;
+	color:white;
+	transition:1s ease-in;
+	cursor: pointer;
+}
+
+
+#secondTdiv{
+	
+	
+	overflow-x:auto
+	
+}
+
+#moviesTable{
+	
+	
+	
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	
+
+}
+
+
+#searchTable{
+	
+	
+	
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	
+
+}
+
+.tableHeaders{
+	
+ background-color:#ffffff;
+	
+	
+}
+
+
+.tableRows{
+	
+		background-color:#ffffff;
+	 
+}
+
+
+
+.tableRows:hover{
+ 
+        background-color:#c0bdf9;
+          
+
+}
+
+
+#addYmovies{
+	
+text-align:center;	
+color:white;
+		
+}
+
+
+
+#movieName, #movieYear{
+	
+color:white;	
+		
+}
+
+
+#txtMovieName,  #txtMovieYear{
+	
+	border:none;
+	border-radius:5px;
+	width:100%;
+	padding:5px;
+	
+	
+}
+
+#userLabel{
+	
+color:white;	
+	
+}
+
+#selectUserID{
+	
+	border:none;
+	border-radius:5px;
+	padding:5px;
+	width:43.2%;
+	
+	
+}
+
+
+#saveBttn{
+
+	padding:5px;
+	background-color:white;
+	border:none;
+    border-radius:5px; 
+    margin:auto;
+    width:43.2%;
+}
+
+#saveBttn:hover{
+	
+	
+	background-color:green;
+	color:white;
+	transition:1s ease-in;
+	cursor: pointer;
+}
+
+
+#logoutContainer{
+	
+	
+	align:center;
+	
+}
+
+#logoutBttn{
+	
+    padding:5px;
+	background-color:white;
+	border:none;
+    border-radius:5px; 
+    margin:auto;
+    width:100%;
+	align:center;
+	
+	
+}
+
+#logoutBttn:hover{
+	
+	
+	background-color:#ff0000;
+	color:white;
+	transition:1s ease-out;
+	cursor: pointer;
+}
+
+
+
+/* editing the serach result page*/
+
+
+
+#searchResultbody{
+	
+	
+	background: url("/thatmovieContent/maxresdefault.jpg") no-repeat center fixed;
+	
+}
+
+
+
+@media only screen and (min-width: 400px)  {
+    #moviesBody {
+        background-image:none;       
+        background-color: lightblue;
+       }
+
+#searchBttn{
+	padding:5px;
+	background-color:white;
+	border:none;
+    border-radius:5px; 
+    margin:auto;
+    width:100%;
+
+}
+
+#searchtxt{
+	border:none;
+	padding:5px;
+	border-radius:5px;
+    width:100%;
+    margin:auto;
+}
+
+#saveBttn{
+
+	padding:5px;
+	background-color:white;
+	border:none;
+    border-radius:5px; 
+    margin:auto;
+    width:100%;
+}
+
+#selectUserID{
+	
+	border:none;
+	border-radius:5px;
+	padding:5px;
+	width:100%;
+	
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
