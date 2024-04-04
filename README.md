@@ -1,3 +1,5 @@
+This was a project requested by our Java EE teacher in 2017.
+
 project structure:
 
 - 2 HTML views (login.html and movies.html)
